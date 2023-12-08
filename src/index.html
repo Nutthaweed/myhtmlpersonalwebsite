@@ -7,8 +7,34 @@
     <meta name="author" content="Nutthawit  Morkkaew">
     <link rel="stylesheet" href="/dist/output.css">
     <title>Nutthawit html version</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./ToggleButton.js"></script>
 </head>
-<body>
-    <div class="text-center text-3xl">Hello World</div>
+<body class="h-screen p-5">
+    <header class="bg white">
+        <div class="flex justify-between items-center w-[92%] mx-autp">
+            <div>
+                    <h1 class="w-16 text-3xl px-20 ">Nutthawit</h1>
+            </div>
+            <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+            <ul class="flex md:flex-row  flex-col md:items-center md:gap-[4vw] text-2xl gap-8">
+            <li>
+                <a class="hover:text-gray-500" href="#">About me</a>
+            </li>
+            <li>
+                <a class="hover:text-gray-500" href="#">Favourite</a>
+            </li>
+            <li>
+                <a class="hover:text-gray-500" href="#">How I make</a>
+            </li>
+            <li>
+                <a class="hover:text-gray-500" href="#">Contact</a>
+            </li>
+        </ul>
+        </div>
+            <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+    </div>
+    </header>
 </body>
 </html>

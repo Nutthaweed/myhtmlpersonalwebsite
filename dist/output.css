@@ -599,8 +599,161 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.top-\[9\%\]{
+  top: 9%;
+}
+
+.top-\[-100\%\]{
+  top: -100%;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.min-h-\[60vh\]{
+  min-height: 60vh;
+}
+
+.w-16{
+  width: 4rem;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[92\%\]{
+  width: 92%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-\[4vw\]{
+  gap: 4vw;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-\[2vw\]{
+  gap: 2vw;
+}
+
+.gap-0{
+  gap: 0px;
+}
+
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-5{
+  padding: 1.25rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pt-5{
   padding-top: 1.25rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pr-10{
+  padding-right: 2.5rem;
+}
+
+.pr-11{
+  padding-right: 2.75rem;
+}
+
+.pr-12{
+  padding-right: 3rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
+}
+
+.pr-1{
+  padding-right: 0.25rem;
 }
 
 .text-center{
@@ -627,6 +780,47 @@ video {
   color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
+.duration-500{
+  transition-duration: 500ms;
+}
+
 * {
   font-family: "Rubik Bubbles";
+}
+
+.hover\:text-gray-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:static{
+    position: static;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:min-h-fit{
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+
+  .md\:w-auto{
+    width: auto;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:gap-\[4vw\]{
+    gap: 4vw;
+  }
 }
