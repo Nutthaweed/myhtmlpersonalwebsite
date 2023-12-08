@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     font-family: "Rubik Bubbles";
-}
-
-body {
-    margin-top: 10px;
-    margin-left: 100px;
 }
